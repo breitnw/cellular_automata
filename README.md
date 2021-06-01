@@ -1,4 +1,4 @@
-<h1> INSTRUCTIONS FOR USING THIS SIMULATION </h1>
+<h1> INSTRUCTIONS </h1>
 
 Click or drag to draw.
 
