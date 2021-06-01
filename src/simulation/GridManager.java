@@ -49,7 +49,7 @@ public class GridManager
         for (int x = mouseX; x < mouseX + brushSize; x++) {
             for (int y = mouseY; y < mouseY + brushSize; y++) {
 
-                // Prevent an unwanted effect that forces physics cells to the right when drawn in at a certain angle
+                // Prevent an unwanted effect that forces water and sand cells to the right when drawn in at a certain angle
                 if ((curPaintType == CType.WATER || curPaintType == CType.SAND) && (inBounds(x, y - 1) && cells[x][y - 1] != null && cells[x][y - 1].getType() == curPaintType))
                     break;
 
